@@ -5,6 +5,8 @@
   font-family: 'Libre Franklin', sans-serif;
   
 }
+
+
 .navbar-brand{
   margin-right: 300px;
   margin-left: 80px;
@@ -69,13 +71,13 @@
 
   .main{
     min-height: 80vh;
+    background-color: rgba(129, 126, 126, 0.26);
   }
 
   .titulo-index{
     background-color: rgba(245, 10, 10, 0.459);
     font-size: 40px;
     font-style:italic;
-    text-decoration: underline;
     font-family: "Gentium Book Plus", serif;
     font-weight: 500;
     color: black;
@@ -99,4 +101,18 @@
 
   .fondo-info{
     background-color: rgba(129, 126, 126, 0.26);
+  }
+
+  .titulo-secciones{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 30px;
+    text-decoration: underline;
+
+  }
+
+  .card-title{
+    font-weight: bold;
+    background-color: beige;
+    display: inline;
   }
