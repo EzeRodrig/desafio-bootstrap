@@ -87,17 +87,7 @@
     padding-bottom: 2%;
   }
 
-  .info-index{
-    font-size: 25px;
-    font-family: "Gentium Book Plus", serif;
-    font-weight: 500;
-    color: black;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 2%;
-    padding-bottom: 5%;
-    margin: 0%;
-  }
+  
 
   .fondo-info{
     background-color: rgba(129, 126, 126, 0.26);
@@ -116,3 +106,31 @@
     background-color: beige;
     display: inline;
   }
+
+  .col-md-4 label{
+    margin-left: 50px;
+  }
+
+  .row{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-check {
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 500px;
+    margin-bottom: 0.125rem;
+}
+
+.btn-primary{
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #fd310d;
+  margin-left: 550px;
+    
+}
+
+.fs-5 {
+  background-color: rgba(245, 10, 10, 0.459);
+
+}
